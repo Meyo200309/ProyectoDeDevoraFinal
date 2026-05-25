@@ -1,0 +1,26 @@
+class DataVisualizer:
+    "Generación del Dashboard estático y gráficos avanzados."
+
+    def generate_dashboard(self, df):
+        "Crea Boxplots y Scatter Plots."
+        plt.figure(figsize=(18, 5))
+        plt.subplot(1, 2, 1)
+        sns.boxplot(x='segmento_cliente', y='monto', data=df, palette='Set2')
+        plt.title('Outliers en Ventas por Segmento')
+        plt.subplot(1, 2, 2)
+        sns.scatterplot(x='PCA_1', y='PCA_2', hue='segmento_cliente', data=df, palette='viridis')
+        plt.title('Clusters tras PCA')
+        plt.tight_layout()
+        plt.savefig('dashboard_estatico.png')
+        print("Dashboard exportado como dashboard_estatico.png")
+
+    def plot_sankey(self):
+        "Genera diagrama de Sankey."
+        fig = go.Figure(data=[go.Sankey(
+            node=dict(pad=15, thickness=20, line=dict(color="black", width=0.5),
+                      label=["Visita Web", "Carrito", "Checkout", "Compra Final", "Abandono"]),
+            link=dict(source=[0, 1, 2, 0, 1], target=[1, 2, 3, 4, 4], value=[2000, 1500, 1000, 1000, 500])
+        )])
+        fig.update_layout(title_text="Flujo de Usuarios a Compra", font_size=10)
+        fig.write_html("sankey_diagram.html")
+        print("Diagrama de Sankey exportado como sankey_diagram.html")
