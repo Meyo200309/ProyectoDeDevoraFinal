@@ -1,3 +1,8 @@
+import numpy as np
+import pandas as pd
+from sqlalchemy import create_engine
+from pymongo import MongoClient
+
 class DataExtractor:
     "Clase encargada de la extracción de los datos (ELT/ETL)."
     

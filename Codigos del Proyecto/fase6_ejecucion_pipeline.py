@@ -1,3 +1,8 @@
+from fase2_extraccion import DataExtractor
+from fase3_transformacion import DataTransformer
+from fase4_analisis import DataAnalyzer
+from fase5_visualizacion import DataVisualizer
+
 if __name__ == "__main__":
     print("Iniciando Pipeline ETL...")
     extractor = DataExtractor("sqlite:///:memory:", "mongodb://localhost:27017/")

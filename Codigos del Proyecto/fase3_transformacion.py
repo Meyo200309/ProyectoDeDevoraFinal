@@ -1,3 +1,7 @@
+import numpy as np
+import pandas as pd
+from sklearn.preprocessing import MinMaxScaler
+
 class DataTransformer:
     "Clase encargada de la calidad, limpieza y normalización."
 

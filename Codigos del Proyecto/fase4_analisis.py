@@ -1,3 +1,6 @@
+import numpy as np
+from sklearn.decomposition import PCA
+
 class DataAnalyzer:
     "Clase encargada de la analítica avanzada y modelos no supervisados."
 

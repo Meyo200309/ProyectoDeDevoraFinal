@@ -148,7 +148,3 @@ if __name__ == "__main__":
     # SALIDA
     df_master_pca.to_parquet('data_master_clean.parquet', index=False)
     print("Pipeline completado. Archivo data_master_clean.parquet generado exitosamente.")
-
-
-
-        return 17.50

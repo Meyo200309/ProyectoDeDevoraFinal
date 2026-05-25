@@ -151,7 +151,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (148, 316, 1410.51, '2026-04-10 04:47:10', 18);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (149, 1693, 2324.33, '2025-09-28 04:47:10', 27);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (150, 314, NULL, '2025-10-23 04:47:10', 5);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (150, 314, NULL, '2025-10-23 04:47:10', 5);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (151, 1956, 4339.86, '25/12/24', 32);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (152, 1184, 882.25, '2025-11-08 04:47:10', 20);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (153, 1755, 2689.68, '2025-10-16 04:47:10', 34);
@@ -301,7 +300,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (297, 96, 2867.24, '2024-12-28 04:47:10', 13);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (298, 26, NULL, '2025-02-19 04:47:10', 19);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (299, 1135, 2648.46, '10/01/26', NULL);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (300, 492, 3683.28, '2025-08-28 04:47:10', 8);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (300, 492, 3683.28, '2025-08-28 04:47:10', 8);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (301, 1173, 1470.87, '2025-03-27 04:47:10', 16);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (302, 1844, 3181.41, '23/11/24', 14);
@@ -453,7 +451,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (448, 1774, 2571.81, '2024-12-16 04:47:10', 26);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (449, 440, 2061.08, '2025-08-25 04:47:10', 33);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (450, 839, 2775.5, '2025-08-10 04:47:10', 29);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (450, 839, 2775.5, '2025-08-10 04:47:10', 29);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (451, 1876, 1713.03, '08/12/25', 16);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (452, 1477, 899.48, '27/02/25', 50);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (453, 448, 888.36, '2025-09-22 04:47:10', 44);
@@ -603,7 +600,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (597, 897, 3637.89, '2025-05-09 04:47:10', 11);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (598, 1657, 2345.18, '2025-06-12 04:47:10', 12);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (599, 1704, 3943.35, '2025-05-16 04:47:10', 38);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (600, 1562, 3500.36, '2025-08-26 04:47:10', 36);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (600, 1562, 3500.36, '2025-08-26 04:47:10', 36);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (601, 1670, 4325.22, '2025-05-10 04:47:10', 20);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (602, 1867, 4218.82, '09/12/25', NULL);
@@ -755,7 +751,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (748, 1770, 1284.63, '20/03/26', 38);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (749, 981, 2946.0, '2024-09-11 04:47:10', 25);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (750, 1214, 1721.26, '2025-11-01 04:47:10', 7);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (750, 1214, 1721.26, '2025-11-01 04:47:10', 7);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (751, 272, 3653.38, '2024-12-29 04:47:10', 46);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (752, 1168, 663.41, '08/07/25', 46);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (753, 1408, 3965.65, '2026-03-03 04:47:10', 30);
@@ -905,7 +900,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (897, 119, 3396.31, '2025-03-12 04:47:10', 50);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (898, 684, NULL, '19/02/26', 5);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (899, 1492, 2205.71, '2024-12-24 04:47:10', 39);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (900, 927, NULL, '2025-08-02 04:47:10', 35);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (900, 927, NULL, '2025-08-02 04:47:10', 35);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (901, 538, 592.01, '11/01/25', 44);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (902, 1274, 4120.04, '12/06/24', 1);
@@ -1057,7 +1051,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1048, 641, 2077.9, '2024-09-06 04:47:10', 39);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1049, 640, 241.03, '2025-05-30 04:47:10', 29);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1050, 236, NULL, '2025-12-27 04:47:10', 6);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1050, 236, NULL, '2025-12-27 04:47:10', 6);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1051, 1082, 1655.57, '17/01/25', 35);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1052, 379, 1415.28, '2024-11-24 04:47:10', 45);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1053, 1683, 1743.66, '01/09/25', 3);
@@ -1207,7 +1200,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1197, 938, 4717.8, '19/03/26', 50);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1198, 243, 3651.99, '16/05/26', 37);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1199, 977, 3614.75, '2025-11-19 04:47:10', 8);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1200, 767, 3695.62, '23/03/26', 36);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1200, 767, 3695.62, '23/03/26', 36);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1201, 776, 1540.06, '2024-09-21 04:47:10', 3);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1202, 521, 4763.98, '05/05/25', 28);
@@ -1359,7 +1351,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1348, 896, 2329.57, '12/03/26', 24);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1349, 1216, 1566.34, '22/01/26', 44);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1350, 708, 1850.41, '2025-04-18 04:47:10', 29);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1350, 708, 1850.41, '2025-04-18 04:47:10', 29);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1351, 1674, 4260.76, '2024-06-12 04:47:10', 41);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1352, 504, 2106.5, '2024-06-26 04:47:10', 23);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1353, 927, 1332.98, '2025-03-21 04:47:10', 42);
@@ -1509,7 +1500,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1497, 453, 4626.28, '2025-05-20 04:47:10', 21);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1498, 617, 1130.72, '20/08/25', 16);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1499, 1691, 2375.47, '25/04/26', 43);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1500, 570, 1547.37, '2024-10-27 04:47:10', 39);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1500, 570, 1547.37, '2024-10-27 04:47:10', 39);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1501, 1599, 777.79, '2026-04-02 04:47:10', 33);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1502, 1049, 2350.13, '2026-03-27 04:47:10', 10);
@@ -1661,7 +1651,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1648, 1797, 568.69, '09/09/24', 9);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1649, 514, NULL, '2026-02-16 04:47:10', 15);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1650, 406, 3417.02, '2026-03-16 04:47:10', 12);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1650, 406, 3417.02, '2026-03-16 04:47:10', 12);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1651, 510, 2831.62, '2026-04-05 04:47:10', 5);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1652, 1443, 828.12, '22/04/26', 10);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1653, 362, 1336.84, '2025-07-06 04:47:10', 39);
@@ -1811,7 +1800,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1797, 978, 2555.85, '2026-02-17 04:47:10', 35);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1798, 659, 3459.84, '23/03/26', 10);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1799, 1132, 2717.97, '2024-09-28 04:47:10', 3);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1800, 909, 1390.23, '2024-07-26 04:47:10', 6);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1800, 909, 1390.23, '2024-07-26 04:47:10', 6);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1801, 1761, 1175.49, '2025-10-25 04:47:10', 20);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1802, 318, 2866.87, '28/01/26', 46);
@@ -1963,7 +1951,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1948, 312, 2152.87, '24/04/26', 35);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1949, 711, 4241.03, '2026-02-07 04:47:10', 36);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1950, 415, 342.21, '2025-07-24 04:47:10', 9);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1950, 415, 342.21, '2025-07-24 04:47:10', 9);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1951, 281, 1041.67, '2024-08-02 04:47:10', 16);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1952, 1688, 2588.7, '2026-03-05 04:47:10', 45);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (1953, 285, 3359.37, '2025-02-18 04:47:10', 33);
@@ -2113,7 +2100,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2097, 1913, 1518.67, '13/02/26', 2);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2098, 1364, 3485.93, '2025-08-31 04:47:10', 25);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2099, 783, 2474.71, '2026-03-07 04:47:10', 1);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2100, 503, 3913.32, '2025-12-01 04:47:10', 43);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2100, 503, 3913.32, '2025-12-01 04:47:10', 43);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2101, 379, 3096.63, '2025-12-10 04:47:10', 14);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2102, 525, 2279.92, '2024-12-04 04:47:10', 42);
@@ -2265,7 +2251,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2248, 1387, 4541.72, '2025-12-06 04:47:10', 28);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2249, 647, 1548.3, '2026-04-02 04:47:10', 20);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2250, 1078, 2214.82, '2024-06-20 04:47:10', 31);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2250, 1078, 2214.82, '2024-06-20 04:47:10', 31);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2251, 1459, 805.99, '2024-06-20 04:47:10', 17);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2252, 1039, 2541.68, '2025-10-20 04:47:10', 46);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2253, 1064, 3595.65, '2025-01-22 04:47:10', 19);
@@ -2415,7 +2400,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2397, 97, 2397.71, '12/10/24', 38);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2398, 1764, 4172.48, '2025-03-28 04:47:10', NULL);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2399, 477, NULL, '05/05/25', 29);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2400, 500, 2912.35, '2026-04-22 04:47:10', 28);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2400, 500, 2912.35, '2026-04-22 04:47:10', 28);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2401, 1115, 197.17, '05/02/25', 36);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2402, 1900, NULL, '16/03/25', 43);
@@ -2567,7 +2551,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2548, 438, 4989.97, '2024-06-05 04:47:10', 16);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2549, 1388, 2333.38, '2024-08-14 04:47:10', 19);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2550, 350, 4105.86, '2025-04-03 04:47:10', 9);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2550, 350, 4105.86, '2025-04-03 04:47:10', 9);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2551, 1725, 4072.91, '04/06/25', 19);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2552, 1457, 3215.38, '2026-02-13 04:47:10', 18);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2553, 1907, 1307.52, '2026-03-23 04:47:10', 31);
@@ -2717,7 +2700,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2697, 571, 4075.67, '21/06/24', 15);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2698, 1676, 1578.87, '23/09/24', 25);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2699, 933, 4247.28, '2025-07-12 04:47:10', 7);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2700, 126, 1333.8, '2024-10-14 04:47:10', 28);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2700, 126, 1333.8, '2024-10-14 04:47:10', 28);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2701, 196, 3986.63, '2026-05-15 04:47:10', 29);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2702, 980, 3932.81, '2024-11-01 04:47:10', 27);
@@ -2869,7 +2851,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2848, 1747, 4905.06, '2024-06-03 04:47:10', 30);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2849, 436, 2329.95, '2026-03-15 04:47:10', NULL);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2850, 681, 3940.57, '16/06/25', 6);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2850, 681, 3940.57, '16/06/25', 6);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2851, 1087, NULL, '2024-11-30 04:47:10', 16);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2852, 391, 2197.78, '2025-01-04 04:47:10', 19);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2853, 1558, 3478.09, '26/09/24', 4);
@@ -3019,7 +3000,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2997, 1397, 4642.58, '2025-05-16 04:47:10', 43);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2998, 785, 904.24, '2024-08-03 04:47:10', 14);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (2999, 1248, 4633.93, '2025-05-03 04:47:10', 1);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3000, 540, 4337.28, '06/02/25', 41);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3000, 540, 4337.28, '06/02/25', 41);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3001, 962, 3237.36, '2025-01-16 04:47:10', 36);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3002, 1163, 2983.59, '2025-12-09 04:47:10', 43);
@@ -3171,7 +3151,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3148, 586, 1644.64, '2025-10-21 04:47:10', 50);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3149, 126, 4106.99, '2026-04-30 04:47:10', 26);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3150, 1597, 4624.19, '24/07/25', 19);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3150, 1597, 4624.19, '24/07/25', 19);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3151, 1702, 11.76, '2025-07-04 04:47:10', 28);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3152, 533, 1709.61, '2025-09-05 04:47:10', 28);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3153, 162, 1854.98, '04/08/24', 31);
@@ -3321,7 +3300,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3297, 1714, 3824.44, '2025-12-30 04:47:10', NULL);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3298, 442, 2071.77, '2025-04-16 04:47:10', 5);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3299, 402, 1745.85, '2024-07-05 04:47:10', 33);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3300, 1548, 4301.85, '03/10/24', 31);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3300, 1548, 4301.85, '03/10/24', 31);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3301, 356, NULL, '2025-03-07 04:47:10', 39);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3302, 1954, 1296.31, '2025-04-17 04:47:10', 4);
@@ -3473,7 +3451,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3448, 801, 3161.31, '04/09/25', 48);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3449, 1318, 2458.11, '18/07/24', NULL);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3450, 266, 2111.59, '2025-04-09 04:47:10', 40);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3450, 266, 2111.59, '2025-04-09 04:47:10', 40);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3451, 1548, 3551.51, '2025-09-30 04:47:10', 8);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3452, 1663, 3168.62, '2025-08-15 04:47:10', 40);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3453, 1237, 1970.24, '27/03/26', 50);
@@ -3623,7 +3600,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3597, 1160, 495.59, '2024-11-26 04:47:10', 21);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3598, 1941, 674.38, '2025-06-27 04:47:10', 12);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3599, 1719, 936.6, '02/01/25', 4);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3600, 592, 1801.27, '2024-12-12 04:47:10', 47);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3600, 592, 1801.27, '2024-12-12 04:47:10', 47);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3601, 1055, 4885.82, '2026-03-12 04:47:10', 41);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3602, 911, 1549.97, '07/06/24', 43);
@@ -3775,7 +3751,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3748, 1777, 1854.91, '2025-08-11 04:47:10', 15);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3749, 1248, 858.66, '2024-07-19 04:47:10', 3);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3750, 1239, 2416.66, '27/12/24', 43);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3750, 1239, 2416.66, '27/12/24', 43);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3751, 1203, 2387.06, '13/07/25', 31);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3752, 197, 4717.81, '2025-09-24 04:47:10', 35);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3753, 1868, 1020.11, '2024-09-16 04:47:10', 32);
@@ -3925,7 +3900,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3897, 1001, 4613.54, '2026-05-05 04:47:10', 49);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3898, 1606, 2390.32, '2026-04-30 04:47:10', 16);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3899, 1233, 4283.72, '2025-07-22 04:47:10', 5);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3900, 180, 1665.97, '29/03/25', 50);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3900, 180, 1665.97, '29/03/25', 50);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3901, 890, 2594.04, '2025-10-20 04:47:10', 21);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (3902, 1483, 1992.8, '04/05/26', 23);
@@ -4077,7 +4051,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4048, 1516, 2591.92, '2026-05-09 04:47:10', 21);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4049, 1084, 3123.63, '2025-07-30 04:47:10', NULL);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4050, 564, 3972.06, '07/09/25', 10);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4050, 564, 3972.06, '07/09/25', 10);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4051, 1225, 3016.58, '30/01/26', 33);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4052, 886, 2074.39, '01/12/25', 18);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4053, 1931, 3743.09, '16/08/25', 32);
@@ -4227,7 +4200,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4197, 229, 415.35, '05/11/25', 22);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4198, 155, 2281.02, '2025-06-20 04:47:10', 5);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4199, 1903, 806.8, '2025-10-04 04:47:10', 25);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4200, 1341, 4452.9, '2026-05-12 04:47:10', 18);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4200, 1341, 4452.9, '2026-05-12 04:47:10', 18);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4201, 1177, 4501.42, '23/01/25', 46);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4202, 627, 2635.0, '2024-11-07 04:47:10', 31);
@@ -4379,7 +4351,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4348, 1251, 456.64, '20/03/26', 44);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4349, 1396, 4026.42, '2025-06-16 04:47:10', 1);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4350, 1971, 3037.09, '01/07/24', 8);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4350, 1971, 3037.09, '01/07/24', 8);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4351, 793, 3593.94, '2024-08-03 04:47:10', 40);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4352, 1677, NULL, '2026-02-13 04:47:10', 4);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4353, 601, 2204.44, '24/01/26', 15);
@@ -4529,7 +4500,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4497, 1456, 584.35, '2026-03-01 04:47:10', 24);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4498, 1047, 4908.76, '2025-06-17 04:47:10', 40);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4499, 1905, NULL, '2025-04-16 04:47:10', 23);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4500, 10, 531.07, '2025-10-22 04:47:10', 34);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4500, 10, 531.07, '2025-10-22 04:47:10', 34);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4501, 809, 4638.55, '2024-07-11 04:47:10', 27);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4502, 1592, 2866.48, '07/02/26', 19);
@@ -4681,7 +4651,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4648, 1607, 1889.94, '19/09/25', 27);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4649, 390, 3931.01, '15/11/25', 43);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4650, 1248, 4371.84, '2024-10-01 04:47:10', 23);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4650, 1248, 4371.84, '2024-10-01 04:47:10', 23);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4651, 950, 2346.37, '18/12/25', 50);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4652, 607, NULL, '10/12/25', 28);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4653, 700, 3227.74, '2025-08-19 04:47:10', 3);
@@ -4832,7 +4801,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4798, 1367, 3665.39, '2025-05-05 04:47:10', 1);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4799, 1421, 1233.44, '2026-02-01 04:47:10', 13);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4800, 1532, 1332.0, '27/08/25', 9);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4800, 1532, 1332.0, '27/08/25', 9);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4801, 375, 3653.1, '2024-11-09 04:47:10', 48);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4802, 254, 2422.59, '2026-01-22 04:47:10', 9);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4803, 1842, NULL, '11/12/24', 21);
@@ -4982,7 +4950,6 @@ INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tien
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4947, 551, 3601.55, '14/10/25', 26);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4948, 67, 3521.77, '16/11/24', 6);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4949, 1437, 4330.4, '2025-06-03 04:47:10', 36);
-INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4950, 1256, 3956.77, '2026-05-04 04:47:10', 19);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4950, 1256, 3956.77, '2026-05-04 04:47:10', 19);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4951, 1067, 4078.19, '2025-10-28 04:47:10', 44);
 INSERT INTO ventas_historicas (id_transaccion, id_cliente, monto, fecha, id_tienda) VALUES (4952, 1572, NULL, '27/10/24', 9);

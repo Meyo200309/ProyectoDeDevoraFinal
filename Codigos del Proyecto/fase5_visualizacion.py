@@ -1,3 +1,7 @@
+import matplotlib.pyplot as plt
+import seaborn as sns
+import plotly.graph_objects as go
+
 class DataVisualizer:
     "Generación del Dashboard estático y gráficos avanzados."
 
