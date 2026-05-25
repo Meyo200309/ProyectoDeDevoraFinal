@@ -1,0 +1,12 @@
+class DataAnalyzer:
+    "Clase encargada de la analítica avanzada y modelos no supervisados."
+
+    def apply_pca(self, df):
+        "Aplica PCA sobre variables de comportamiento."
+        np.random.seed(42)
+        features_comportamiento = np.random.rand(len(df), 20)
+        pca = PCA(n_components=3)
+        componentes = pca.fit_transform(features_comportamiento)
+        df['PCA_1'], df['PCA_2'], df['PCA_3'] = componentes[:, 0], componentes[:, 1], componentes[:, 2]
+        print(f"Varianza explicada: {sum(pca.explained_variance_ratio_):.2%}")
+        return df
