@@ -1,10 +1,11 @@
-from fase2_extraccion import DataExtractor
-from fase3_transformacion import DataTransformer
-from fase4_analisis import DataAnalyzer
-from fase5_visualizacion import DataVisualizer
+from fase1_extraccion import DataExtractor
+from fase2_transformacion import DataTransformer
+from fase3_analisis import DataAnalyzer
+from fase4_visualizacion import DataVisualizer
+import pyarrow
 
-if __name__ == "__main__":
-    print("Iniciando Pipeline ETL...")
+if __name__ == "__main__": # Función principal para incializar el Pipeline (por fin)
+    print("Iniciando el Pipeline ETL...")
     extractor = DataExtractor("sqlite:///:memory:", "mongodb://localhost:27017/")
     
     # FASE 1: Extracción

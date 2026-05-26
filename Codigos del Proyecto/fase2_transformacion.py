@@ -1,3 +1,4 @@
+# Importar las librerías para el código de limpieza y transformación
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
