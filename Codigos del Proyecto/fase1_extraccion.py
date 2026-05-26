@@ -1,44 +1,55 @@
-import numpy as np
 import pandas as pd
 from sqlalchemy import create_engine
 from pymongo import MongoClient
 
+# Esta clase es la que hace el verdadero trabajo de extraer los datos
+
 class DataExtractor:
-    "Clase encargada de la extracción de los datos (ELT/ETL)."
-    
+
     def __init__(self, sql_conn_str, mongo_conn_str):
+
+        # MYSQL
+
         self.sql_engine = create_engine(sql_conn_str)
+
+        # MongoDB
+
         self.mongo_client = MongoClient(mongo_conn_str)
 
-    def extract_sql_incremental(self, last_id=0):
-        "Extrae ventas históricas con lógica incremental."
-        np.random.seed(42)
-        return pd.DataFrame({
-            'id_transaccion': range(1, 5001),
-            'id_cliente': np.random.randint(1, 1000, 5000),
-            'monto': np.random.normal(500, 200, 5000),
-            'fecha': pd.date_range(start='1/1/2023', periods=5000, freq='h').strftime('%d/%m/%y'),
-            'id_tienda': np.random.randint(1, 50, 5000)
-        })
+    # Aquí la extracción directa a MySQL
 
-    def extract_nosql(self):
-        "Extrae perfiles de usuario desde MongoDB."
-        return pd.DataFrame({
-            'Customer_ID': range(1, 1000),
-            'edad': np.random.randint(18, 70, 999),
-            'geolocalizacion': np.random.choice(['México', 'mex', 'mx', 'USA'], 999),
-            'gasto_mensual': np.random.uniform(100, 5000, 999)
-        })
+    def extraer_sql(self, table_name, last_id=0):
 
-    def extract_csv(self):
-        "Extrae inventario introduciendo nulos y duplicados."
-        df = pd.DataFrame({
-            'id_producto': range(1, 1001),
-            'categoria': ['Electronica', 'Ropa', 'Hogar', None] * 250,
-            'stock': np.random.randint(0, 100, 1000)
-        })
-        return pd.concat([df, df.iloc[:50]]).reset_index(drop=True)
+        query = f""" SELECT * FROM {table_name} WHERE id_transaccion > {last_id} """
 
+        df = pd.read_sql(query, self.sql_engine)
+
+        return df
+
+    # Aquí la extracción estilo NoSQL (en Mongo)
+
+    def extraer_mongo(self, db_name, collection_name):
+
+        db = self.mongo_client[db_name]
+
+        collection = db[collection_name]
+
+        data = list(collection.find({}, {"_id": 0}))
+
+        df = pd.DataFrame(data)
+
+        return df
+
+    # Lector del archivo CSV
+
+    def extraer_csv(self, csv_path):
+
+        df = pd.read_csv(csv_path)
+
+        return df
+
+    # Intento de API simulada (llorar a veces es bueno)
+    
     def extract_api_scraping(self):
-        """Extrae tipos de cambio vía API simulada."""
+
         return 17.50
