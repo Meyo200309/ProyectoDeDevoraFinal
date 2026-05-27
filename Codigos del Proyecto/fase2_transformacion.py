@@ -31,12 +31,11 @@ class DataTransformer:
         # Estandarización de países
 
         mapeo_paises = {
-            'MEXICO': 'México',
-            'MX': 'México',
             'mex': 'México',
             'mx': 'México',
+            'mexico': 'México',
             'méxico': 'México',
-            'usa': 'Estados Unidos', # Esto era por si hay datos de geolocalización a Estados Unidos 
+            'usa': 'Estados Unidos', # Agregando esto por si hay datos de geolocalización de Estados Unidos 
             'us': 'Estados Unidos'
         }
 
@@ -50,22 +49,13 @@ class DataTransformer:
 
     def normalizar_estandarizar(self, df_sql, df_mongo):
 
-        """
-        Normaliza fechas,
-        escala numéricos
-        y une fuentes.
-        """
-
         # Normalizar las fechas, para que sea compatible con varios formatos de fecha
 
-        df_sql['fecha'] = pd.to_datetime(df_sql['fecha'], errors='coerce')
+        df_sql['fecha'] = pd.to_datetime(df_sql['fecha'], errors='coerce', dayfirst=True)
 
         # Hacer merge entre MySQL y MongoDB para formar un DataFrame con más datos
 
-        df_master = pd.merge(df_sql, df_mongo, left_on='id_cliente',
-            right_on='Customer_ID',
-            how='left'
-        )
+        df_master = pd.merge(df_sql, df_mongo, left_on='id_cliente', right_on='Customer_ID', how='left', indicator=True)
 
         # Hacer segmentación de clientes
 
@@ -80,9 +70,7 @@ class DataTransformer:
         # Escalado
 
         scaler = MinMaxScaler()
-
         columnas_numericas = ['monto', 'gasto_mensual']
-
-        df_master[['monto_scaled', 'gasto_mensual_scaled']] = scaler.fit_transform(df_master[columnas_numericas].fillna(0))
+        df_master[['monto_escalado', 'gasto_mensual_escalado']] = scaler.fit_transform(df_master[columnas_numericas].fillna(0))
 
         return df_master

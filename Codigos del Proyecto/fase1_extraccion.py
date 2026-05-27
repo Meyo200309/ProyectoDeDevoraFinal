@@ -31,11 +31,8 @@ class DataExtractor:
     def extraer_mongo(self, db_name, collection_name):
 
         db = self.mongo_client[db_name]
-
         collection = db[collection_name]
-
         data = list(collection.find({}, {"_id": 0}))
-
         df = pd.DataFrame(data)
 
         return df
@@ -44,7 +41,7 @@ class DataExtractor:
 
     def extraer_csv(self, csv_path):
 
-        df = pd.read_csv(csv_path)
+        df = pd.read_csv(csv_path, encoding='utf-8')
 
         return df
 
