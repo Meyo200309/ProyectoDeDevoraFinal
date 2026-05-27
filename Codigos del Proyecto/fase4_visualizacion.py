@@ -3,7 +3,7 @@ import seaborn as sns
 import plotly.graph_objects as go
 
 
-class DataVisualizer:
+class DataVisualizacion:
 
     "Generación del Dashboard estático y gráficos avanzados."
 

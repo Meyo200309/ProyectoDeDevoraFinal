@@ -3,7 +3,6 @@ import pandas as pd
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 
-
 class DataAnalisis:
 
     def apply_pca(self, df):
@@ -12,9 +11,7 @@ class DataAnalisis:
 
             'monto',
             'edad',
-            'gasto_mensual',
             'monto_escalado',
-            'gasto_mensual_escalado'
 
         ]
 

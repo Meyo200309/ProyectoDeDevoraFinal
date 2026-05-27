@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 
-class DataTransformer:
+class DataTransformer: # <- Como la película
 
     # A iniciar la limpieza
 
@@ -41,7 +41,9 @@ class DataTransformer:
 
         # Por último se realiza el mapeo y se rellenan los nulos que podría haber
 
-        df_mongo['geolocalizacion'] = (df_mongo['geolocalizacion'].map(mapeo_paises).fillna(df_mongo['geolocalizacion']))
+        df_mongo['pais'] = (df_mongo['geolocalizacion'].apply(lambda x: x.get('pais') if isinstance(x, dict) else None))
+        df_mongo['pais'] = (df_mongo['pais']).astype(str).str.lower()
+        df_mongo['pais'] = (df_mongo['pais'].map(mapeo_paises).fillna(df_mongo['pais']))
 
         return df_inventario, df_sql, df_mongo
 
@@ -53,15 +55,17 @@ class DataTransformer:
 
         df_sql['fecha'] = pd.to_datetime(df_sql['fecha'], errors='coerce', dayfirst=True)
 
+        print(df_sql['fecha'].isna().sum())
+
         # Hacer merge entre MySQL y MongoDB para formar un DataFrame con más datos
 
-        df_master = pd.merge(df_sql, df_mongo, left_on='id_cliente', right_on='Customer_ID', how='left', indicator=True)
+        df_master = pd.merge(df_sql, df_mongo, left_on='id_cliente', right_on='Customer_ID', how='left')
 
         # Hacer segmentación de clientes
 
         df_master['segmento_cliente'] = np.where(
             (df_master['monto'] > 1000) &
-            (df_master['edad'] < 30),
+            (df_master['edad'].fillna(0) < 30),
 
             'Premium Joven',
             'Estándar'
@@ -70,7 +74,7 @@ class DataTransformer:
         # Escalado
 
         scaler = MinMaxScaler()
-        columnas_numericas = ['monto', 'gasto_mensual']
-        df_master[['monto_escalado', 'gasto_mensual_escalado']] = scaler.fit_transform(df_master[columnas_numericas].fillna(0))
+        columna_numerica = ['monto']
+        df_master[['monto_escalado']] = scaler.fit_transform(df_master[columna_numerica].fillna(0))
 
         return df_master

@@ -1,10 +1,11 @@
 from fase1_extraccion import DataExtractor
 from fase2_transformacion import DataTransformer
 from fase3_analisis import DataAnalisis
-from fase4_visualizacion import DataVisualizer
+from fase4_visualizacion import DataVisualizacion
 from pymongo import MongoClient
 import pyarrow
 import pymysql
+import os
 
 if __name__ == "__main__":
 
@@ -12,7 +13,7 @@ if __name__ == "__main__":
 
     # Insertamos credenciales para inicializar la conexión a bases de datos antes de ->
 
-    sql_conn = "mysql+pymysql://root:PASSWORD@localhost:3306/PPDProyectoDB"
+    sql_conn = "mysql+pymysql://root:123456789@localhost:3306/PPDProyectoDB"
     mongo_conn = "mongodb://localhost:27017/"
     cliente_mongo = MongoClient(mongo_conn)
 
@@ -21,8 +22,8 @@ if __name__ == "__main__":
     extractor = DataExtractor(sql_conn, mongo_conn)
 
     try:
-        with extractor.sql_engine_connect() as conn:
-            print("Conexión a MYSQL.")
+        with extractor.sql_engine.connect() as conn:
+            print("Conexión a MYSQL exitosa. Genial.")
     except Exception as e:
         print(f"Error MySQL: {e}")
 
@@ -36,19 +37,22 @@ if __name__ == "__main__":
 
     # De MySQL
 
-    df_ventas_hist = extractor.extraer_sql(table_name="ventas_historicas", last_id=0)
+    df_ventas_hist = extractor.extraer_sql(nombre_tabla="ventas_historicas", ult_id=0)
 
     # En MongoDB
 
-    df_perf_usuarios = extractor.extraer_mongo(db_name="PPDProyectoDB",collection_name="perfiles_usuarios")
+    df_perf_usuarios = extractor.extraer_mongo(nombre_db="PPDProyectoDB", nombre_coleccion="perfiles_usuarios")
 
     # Desde CSV
 
-    df_inv = extractor.extraer_csv("Inventario_Omnilife_ETL.csv")
+    dir_act = os.path.dirname(__file__)
+    ruta_csv = os.path.abspath(os.path.join(dir_act, "..", "data", "sucio_data", "Inventario_Omnilife_ETL.csv"))
+    df_inv = extractor.extraer_csv(ruta_csv)
 
     # Ahora con los datos extraídos, procedemos a la transformación
 
-    transformer = DataTransformer() # Como la película, otra vez pfff
+    print("Ejecutando transformer-ación...")
+    transformer = DataTransformer() # Como la película, otra vez
 
     df_inv_limpio, df_ventas_hist_limpio, df_perf_usuarios_limpio = (transformer.limpiar_data(df_inv, df_ventas_hist, df_perf_usuarios))
 
@@ -56,12 +60,14 @@ if __name__ == "__main__":
 
     # Sigue la fase de análisis donde se hace el PCA
 
+    print("Ejecutando análisis...")
     analyzer = DataAnalisis()
     df_master_pca = analyzer.apply_pca(df_master)
 
     # Aquí el proceso de visualización, donde veremos algunas gráficas en base a lo anteriora
 
-    visualizer = DataVisualizer()
+    print("Ejecutando visualización...")
+    visualizer = DataVisualizacion()
     visualizer.generar_dashboard(df_master_pca)
     visualizer.plot_sankey(df_master_pca)
 
@@ -70,4 +76,4 @@ if __name__ == "__main__":
 
     df_master_pca.to_parquet('data_master_clean.parquet', index=False)
     df_master_pca.to_csv('data_master_clean.csv', index=False)
-    print("Pipeline completado exitosamente.")
+    print("Pipeline completado exitosamente. Carita muy feliz.")
