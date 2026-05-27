@@ -93,13 +93,21 @@ class DataTransformer: # <- Como la película
 
         # Hacer segmentación de clientes
 
-        df_master['segmento_cliente'] = np.where(
-            (df_master['monto'] > 1000) &
-            (df_master['edad'] < 30),
+        condiciones = [
+            (df_master['monto'] > 1000 ) & (df_master['edad'] < 30),
+            (df_master['monto'] > 1000) & (df_master['edad'] >= 30),
+            (df_master['monto'] <= 1000) & (df_master['edad'] < 30),
+            (df_master['monto'] <= 1000) & (df_master['edad'] >= 30)
+        ]
 
+        segmentos = [
             'Premium Joven',
-            'Estándar'
-        )
+            'Premium Regular',
+            'Estándar Joven',
+            'Estándar Regular'
+        ]
+
+        df_master['segmento_cliente'] = np.select(condiciones, segmentos, default='Desconocido')
 
         # Escalado
 

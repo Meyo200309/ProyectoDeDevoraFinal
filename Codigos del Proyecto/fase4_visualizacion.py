@@ -27,7 +27,7 @@ class DataVisualizacion:
         # El Scatter del PCA
 
         plt.subplot(1, 2, 2)
-        sns.scatterplot(x='PCA_1', y='PCA_2', hue='segmento_cliente', data=df, palette='viridis')
+        sns.scatterplot(x='PCA_1', y='PCA_2', hue='segmento_cliente', data=df, palette='viridis', alpha=0.7)
         plt.title('Distribución de Clientes tras PCA')
         plt.xlabel('PCA 1')
         plt.ylabel('PCA 2')
@@ -45,21 +45,25 @@ class DataVisualizacion:
 
         # Conteo de los segmentos antes registrados (o asignados, más bien)
 
-        premium = (df['segmento_cliente'].eq('Premium Joven').sum())
-        estandar = (df['segmento_cliente'].eq('Estándar').sum())
+        conteo_segmentos = (df['segmento_cliente'].value_counts())
 
         total = len(df) # <--- Por si acaso lo utilizábamos, pero no hizo falta
 
         # Aquí el desarrollo del diagrama de Sankey
 
-        fig = go.Figure(data=[go.Sankey(node=dict(pad=15, thickness=20, line=dict(color="black", width=0.5), 
-                        label=["Clientes Totales", "Premium Joven", "Estándar"]),
-                        link=dict(source=[0, 0], target=[1, 2], value=[premium, estandar]))])
+        labels = ['Clientes Totales'] + list(conteo_segmentos.index)
+        source = [0] * len(conteo_segmentos)
+        target = list(range(1, len(conteo_segmentos) + 1))
+        values = conteo_segmentos.values.tolist()
 
-        fig.update_layout(title_text=("Distribución de Segmentos de Clientes"), font_size=10)
+        fig = go.Figure(data=[go.Sankey(node=dict(pad=15, thickness=20, line=dict(color="black", width=0.5), label=labels),
+                                        link=dict(source=source, target=target, value=values)
+        )])
+
+        fig.update_layout(title_text="Distribución avanzada de segmentos", font_size=10)
 
         # Exportar el diagrama de Sankey en formato HTML
 
         fig.write_html("sankey_diagrama.html")
 
-        print("Diagrama de Sankey exportado como sankey_diagrama.html")
+        print("Diagrama de Sankey exportado como HTML")
